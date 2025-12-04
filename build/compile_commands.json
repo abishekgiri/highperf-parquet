@@ -1,0 +1,140 @@
+[
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/writer/writer.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/writer/writer.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/writer/writer.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/writer/writer.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/schema/schema.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/schema/schema.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/schema/schema.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/schema/schema.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/encodings/encoding_base.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/encoding_base.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/encoding_base.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/encodings/encoding_base.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/encodings/rle_simd.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/rle_simd.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/rle_simd.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/encodings/rle_simd.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/encodings/bitpack_simd.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/bitpack_simd.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/bitpack_simd.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/encodings/bitpack_simd.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/encodings/delta_simd.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/delta_simd.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/delta_simd.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/encodings/delta_simd.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/encodings/dict_encoding.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/dict_encoding.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/dict_encoding.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/encodings/dict_encoding.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/encodings/adaptive.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/adaptive.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/encodings/adaptive.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/encodings/adaptive.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/io/file_writer.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/io/file_writer.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/io/file_writer.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/io/file_writer.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/io/buffer.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/io/buffer.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/io/buffer.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/io/buffer.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/format/parquet_metadata.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/format/parquet_metadata.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/format/parquet_metadata.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/format/parquet_metadata.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/format/parquet_layout.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/format/parquet_layout.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/format/parquet_layout.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/format/parquet_layout.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/format/bloom_filter.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/format/bloom_filter.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/format/bloom_filter.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/format/bloom_filter.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_core_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -fPIC -O3 -march=native -Wall -Wextra -o CMakeFiles/hpq_core.dir/src/gpu/gpu_compress_fallback.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/gpu/gpu_compress_fallback.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/src/gpu/gpu_compress_fallback.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_core.dir/src/gpu/gpu_compress_fallback.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -Dhpq_py_EXPORTS -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -isystem \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/_deps/pybind11-src/include\" -isystem /Users/abishekkumargiri/micromamba/include/python3.9 -std=gnu++20 -arch arm64 -fPIC -fvisibility=hidden -O3 -march=native -Wall -Wextra -flto -o CMakeFiles/hpq_py.dir/python/hpq/bindings.cpp.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/python/hpq/bindings.cpp\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/python/hpq/bindings.cpp",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/hpq_py.dir/python/hpq/bindings.cpp.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -O3 -march=native -Wall -Wextra -o CMakeFiles/benchmark_writer.dir/benchmarks/benchmark_writer.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/benchmarks/benchmark_writer.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/benchmarks/benchmark_writer.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CMakeFiles/benchmark_writer.dir/benchmarks/benchmark_writer.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -O3 -march=native -Wall -Wextra -o tests/cpp/CMakeFiles/test_writer.dir/test_writer.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_writer.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_writer.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/tests/cpp/CMakeFiles/test_writer.dir/test_writer.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -O3 -march=native -Wall -Wextra -o tests/cpp/CMakeFiles/test_encodings.dir/test_encodings.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_encodings.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_encodings.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/tests/cpp/CMakeFiles/test_encodings.dir/test_encodings.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -O3 -march=native -Wall -Wextra -o tests/cpp/CMakeFiles/test_gpu_compress.dir/test_gpu_compress.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_gpu_compress.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_gpu_compress.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/tests/cpp/CMakeFiles/test_gpu_compress.dir/test_gpu_compress.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -O3 -march=native -Wall -Wextra -o tests/cpp/CMakeFiles/test_adaptive.dir/test_adaptive.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_adaptive.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_adaptive.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/tests/cpp/CMakeFiles/test_adaptive.dir/test_adaptive.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -O3 -march=native -Wall -Wextra -o tests/cpp/CMakeFiles/test_dict.dir/test_dict.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_dict.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_dict.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/tests/cpp/CMakeFiles/test_dict.dir/test_dict.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -O3 -march=native -Wall -Wextra -o tests/cpp/CMakeFiles/test_delta.dir/test_delta.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_delta.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_delta.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/tests/cpp/CMakeFiles/test_delta.dir/test_delta.cc.o"
+},
+{
+  "directory": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build",
+  "command": "/usr/bin/c++ -I\"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/include\" -std=gnu++20 -arch arm64 -O3 -march=native -Wall -Wextra -o tests/cpp/CMakeFiles/test_bloom.dir/test_bloom.cc.o -c \"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_bloom.cc\"",
+  "file": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/tests/cpp/test_bloom.cc",
+  "output": "/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/tests/cpp/CMakeFiles/test_bloom.dir/test_bloom.cc.o"
+}
+]

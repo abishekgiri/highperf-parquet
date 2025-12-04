@@ -1,0 +1,40 @@
+# ninja log v7
+3	540	1764802592303767263	CMakeFiles/hpq_core.dir/src/encodings/rle_simd.cc.o	1d5e2ae8da32bf12
+2	80	1764802309837441334	CMakeFiles/hpq_core.dir/src/io/buffer.cc.o	3c564bc7b4137d3b
+3	479	1764804003418147151	CMakeFiles/hpq_core.dir/src/encodings/delta_simd.cc.o	ab4fd6e64f863d45
+6	436	1764802379184214971	CMakeFiles/hpq_core.dir/src/encodings/encoding_base.cc.o	e9d226cadb2485c5
+3	414	1764803765063697902	CMakeFiles/hpq_core.dir/src/encodings/bitpack_simd.cc.o	308807700298bea2
+2	81	1764802309837308586	CMakeFiles/hpq_core.dir/src/io/file_writer.cc.o	8408fb356a4153a5
+2	81	1764802309837740249	CMakeFiles/hpq_core.dir/src/format/parquet_metadata.cc.o	c4faaa5d92cf368
+3	526	1764803892809352934	CMakeFiles/hpq_core.dir/src/encodings/dict_encoding.cc.o	7621915df37663c6
+3	84	1764802309839002778	CMakeFiles/hpq_core.dir/src/format/parquet_layout.cc.o	ab59decc9d3a1370
+6	463	1764802379183853100	CMakeFiles/hpq_core.dir/src/schema/schema.cc.o	20e4cb26d96bd6a1
+3	431	1764803163092089250	CMakeFiles/hpq_core.dir/src/writer/writer.cc.o	4bb27b7debe87f4a
+374	409	1764804228123495416	libhpq_core.dylib	d5bd9126d580e993
+5	1246	1764802420771104273	CMakeFiles/hpq_py.dir/python/hpq/bindings.cpp.o	c8ed33b30548596
+409	866	1764804228158471655	hpq_py.cpython-39-darwin.so	e2a40bcf2a076342
+2	550	1764804467283062865	build.ninja	d42eae4d720a43ac
+2	550	1764804467279953389	/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/cmake_install.cmake	d42eae4d720a43ac
+2	550	1764804467280321433	/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/_deps/pybind11-build/cmake_install.cmake	d42eae4d720a43ac
+2	550	1764804467281856358	/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/tests/cpp/cmake_install.cmake	d42eae4d720a43ac
+2	550	1764804467280126515	/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/CTestTestfile.cmake	d42eae4d720a43ac
+2	550	1764804467282048693	/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/tests/cpp/CTestTestfile.cmake	d42eae4d720a43ac
+3	369	1764802439932635485	tests/cpp/CMakeFiles/test_writer.dir/test_writer.cc.o	96d30768c2fc2763
+410	474	1764804228158800240	tests/cpp/test_writer	41edc2356d94a5f0
+3	521	1764802592304101427	tests/cpp/CMakeFiles/test_encodings.dir/test_encodings.cc.o	b10b4b88f4804f8a
+410	472	1764804228158906282	tests/cpp/test_encodings	5e72110ca6c52a0e
+4	389	1764802935570598353	tests/cpp/CMakeFiles/test_gpu_compress.dir/test_gpu_compress.cc.o	3cff92745d588f1f
+4	310	1764802900850457901	CMakeFiles/hpq_core.dir/src/gpu/gpu_compress_fallback.cc.o	b7f9bec6bfaa5059
+410	473	1764804228159008491	tests/cpp/test_gpu_compress	7db9c9a10cf72a4d
+3	361	1764803117441559288	tests/cpp/CMakeFiles/test_adaptive.dir/test_adaptive.cc.o	32bb042661295547
+3	403	1764803117441445831	CMakeFiles/hpq_core.dir/src/encodings/adaptive.cc.o	387f4b10ae7f27c5
+410	473	1764804228159124033	tests/cpp/test_adaptive	1bb50de3634aecd8
+4	549	1764803193226514667	CMakeFiles/benchmark_writer.dir/benchmarks/benchmark_writer.cc.o	3d73bd13a2fab9a2
+410	472	1764804228158682114	benchmark_writer	3fbc3d49956605b1
+4	389	1764803908207997338	tests/cpp/CMakeFiles/test_dict.dir/test_dict.cc.o	ad4ec9fc8e884b43
+410	474	1764804228159238242	tests/cpp/test_dict	8dfc0a17bd7e2c70
+4	383	1764804003418382403	tests/cpp/CMakeFiles/test_delta.dir/test_delta.cc.o	e516a32fb422244e
+410	473	1764804228159367701	tests/cpp/test_delta	c87300841ff19dec
+4	357	1764804227752743039	tests/cpp/CMakeFiles/test_bloom.dir/test_bloom.cc.o	6231f205cf5f14aa
+3	374	1764804227752522038	CMakeFiles/hpq_core.dir/src/format/bloom_filter.cc.o	ee66423277c2f20a
+410	473	1764804228159495035	tests/cpp/test_bloom	55e56b2cdcd9eb0f

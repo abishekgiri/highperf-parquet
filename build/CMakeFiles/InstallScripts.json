@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/cmake_install.cmake",
+		"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/_deps/pybind11-build/cmake_install.cmake",
+		"/Users/abishekkumargiri/Desktop/data engineer/highperf-parquet:/build/tests/cpp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

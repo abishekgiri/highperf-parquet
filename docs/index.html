@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HighPerf Parquet | Next-Gen C++ Writer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="glass-nav">
+        <div class="logo">HPQ <span class="accent">Writer</span></div>
+        <div class="links">
+            <a href="#features">Features</a>
+            <a href="#benchmarks">Benchmarks</a>
+            <a href="#usage">Usage</a>
+            <a href="https://github.com/yourusername/highperf-parquet" class="btn-primary">View on GitHub</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="fade-in-up">The World's <span class="gradient-text">Fastest</span><br>Parquet Writer</h1>
+            <p class="fade-in-up delay-1">Built from scratch in C++20 with CUDA Acceleration. Achieving over <strong>6 GB/s</strong> write throughput.</p>
+            <div class="cta-group fade-in-up delay-2">
+                <a href="#usage" class="btn-primary">Get Started</a>
+                <a href="#benchmarks" class="btn-secondary">See Benchmarks</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Core <span class="accent">Technology</span></h2>
+            <div class="grid">
+                <div class="card glass-card">
+                    <div class="icon">🚀</div>
+                    <h3>Adaptive Encoding</h3>
+                    <p>Intelligently analyzes your data in real-time to select the optimal encoding strategy (RLE, BitPacking, or Plain) for maximum compression and speed.</p>
+                </div>
+                <div class="card glass-card">
+                    <div class="icon">⚡</div>
+                    <h3>GPU Acceleration</h3>
+                    <p>Offloads compression tasks to NVIDIA GPUs using custom CUDA kernels. Automatically falls back to optimized CPU paths on non-CUDA systems.</p>
+                </div>
+                <div class="card glass-card">
+                    <div class="icon">🧬</div>
+                    <h3>SIMD Optimized</h3>
+                    <p>Leverages AVX2 and NEON intrinsics for vectorized bit-packing and decoding, ensuring every CPU cycle is utilized.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benchmarks" class="benchmarks">
+        <div class="container">
+            <h2 class="section-title">Performance <span class="accent">Benchmarks</span></h2>
+            <div class="benchmark-container glass-card">
+                <div class="chart-row">
+                    <div class="label">Standard Writer</div>
+                    <div class="bar-container">
+                        <div class="bar standard" style="width: 15%;"></div>
+                        <span class="value">~0.8 GB/s</span>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <div class="label">HPQ (CPU Adaptive)</div>
+                    <div class="bar-container">
+                        <div class="bar cpu" style="width: 60%;"></div>
+                        <span class="value">3.6 GB/s</span>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <div class="label">HPQ (GPU Accelerated)</div>
+                    <div class="bar-container">
+                        <div class="bar gpu" style="width: 100%;"></div>
+                        <span class="value">6.4 GB/s</span>
+                    </div>
+                </div>
+            </div>
+            <p class="benchmark-note">* Benchmarks run on 1M rows of mixed INT64/INT32 data.</p>
+        </div>
+    </section>
+
+    <section id="usage" class="usage">
+        <div class="container">
+            <h2 class="section-title">Simple <span class="accent">Integration</span></h2>
+            <div class="code-window glass-card">
+                <div class="window-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="filename">main.cpp</span>
+                </div>
+                <pre><code class="language-cpp">
+#include "hpq/writer.h"
+
+int main() {
+    // 1. Define Schema
+    hpq::Schema schema;
+    schema.AddColumn("id", hpq::Type::INT64);
+    schema.AddColumn("score", hpq::Type::FLOAT);
+
+    // 2. Configure Options
+    hpq::WriterOptions options;
+    options.use_gpu_compression = true; // Auto-fallback supported
+
+    // 3. Write Data
+    hpq::ParquetWriter writer("data.parquet", options);
+    writer.Init(schema);
+
+    std::vector<int64_t> ids = {1, 2, 3, 4, 5};
+    writer.WriteColumn(0, ids.data(), ids.size());
+
+    writer.Close();
+    return 0;
+}
+                </code></pre>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 HighPerf Parquet Project. Built with C++ & CUDA.</p>
+    </footer>
+
+    <script>
+        // Simple intersection observer for fade-in animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        });
+
+        document.querySelectorAll('.card, .benchmark-container, .code-window').forEach((el) => {
+            el.classList.add('fade-in-scroll');
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>

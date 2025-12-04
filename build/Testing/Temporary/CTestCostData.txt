@@ -1,0 +1,8 @@
+test_writer 10 0.000271192
+test_encodings 9 0.000208454
+test_gpu_compress 8 0.000228135
+test_adaptive 7 0.000282905
+test_dict 5 0.000363283
+test_delta 4 0.00045324
+test_bloom 3 0.000609333
+---
